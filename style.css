@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  h1 {
+    text-align: center;
+  }
+  /* Estilos do botão do WhatsApp */
+  .whatsapp-button {
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #25D366;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 120px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  .whatsapp-button:hover {
+    transform: scale(1.1);
+  }
+  /* Estilos das animações */
+  .fade-in {
+    opacity: 0;
+  }
+  .fade-in.active {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+  .slide-in-left {
+    transform: translateX(-100%);
+  }
+  .slide-in-left.active {
+    transform: translateX(0);
+    transition: transform 1s ease-in-out;
+  }
+  .slide-in-right {
+    transform: translateX(100%);
+  }
+  .slide-in-right.active {
+    transform: translateX(0);
+    transition: transform 1s ease-in-out;
+  }
