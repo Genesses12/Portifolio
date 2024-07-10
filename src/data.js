@@ -33,20 +33,32 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
+export const formacao = [
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
+      "Cursando 4° Semestre em superior em tecnologia pela Anhanguera ",
+    imagem:"../src/img/Anhanguera.png",
+    company: "",
   },
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+      "Bootcamp Oracle + Alura INICIANTE EM PROGRAMAÇÃO T3 - ONE / Formação FRONT END T3 - ONE - 175h",
+    imagem:"../src/img/alura.png",
+    company: "",
+  },
+  {
+    quote:
+      "Tive á oportunidade de participar do Santander Bootcamp 2023 - Fullstack Java+Angular- 115h ",
+    image: "https://randomuser.me/api/portraits/men/1.jpg",
+    imagem:"../src/img/Dio.png",
+    company: "",
+  },
+  {
+    quote:
+      "a NuBanck + Descomplica, Concluiu curso livre à distância de Fundamentos  FrontEnd Development  220 h",
+    image: "https://randomuser.me/api/portraits/men/1.jpg",
+    imagem:"../src/img/Descomplica.png",
+    company: "",
   },
 ];
 
