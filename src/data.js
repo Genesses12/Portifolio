@@ -1,3 +1,7 @@
+import aluraImg from './img/alura.png';
+import anhangueraImg from './img/Anhanguera.png';
+import descomplicaImg from './img/Descomplica.png';
+import dioImg from './img/dio.png';
 export const projects = [
   {
     title: "React Reserve",
@@ -35,29 +39,23 @@ export const projects = [
 
 export const formacao = [
   {
-    quote:
-      "Cursando 4° Semestre em superior em tecnologia pela Anhanguera ",
-    imagem:"./src/img/Anhanguera.png",
+    quote: "Cursando 4° Semestre em superior em tecnologia pela Anhanguera",
+    imagem: anhangueraImg,
     company: "",
   },
   {
-    quote:
-      "Bootcamp Oracle + Alura INICIANTE EM PROGRAMAÇÃO T3 - ONE / Formação FRONT END T3 - ONE - 175h",
-    imagem:"./src/img/alura.png",
+    quote: "Bootcamp Oracle + Alura INICIANTE EM PROGRAMAÇÃO T3 - ONE / Formação FRONT END T3 - ONE - 175h",
+    imagem: aluraImg,
     company: "",
   },
   {
-    quote:
-      "Tive á oportunidade de participar do Santander Bootcamp 2023 - Fullstack Java+Angular- 115h ",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    imagem:"./src/img/Dio.png",
+    quote: "Tive á oportunidade de participar do Santander Bootcamp 2023 - Fullstack Java+Angular- 115h",
+    imagem: dioImg,
     company: "",
   },
   {
-    quote:
-      "a NuBanck + Descomplica, Concluiu curso livre à distância de Fundamentos  FrontEnd Development  220 h",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    imagem:"./src/img/Descomplica.png",
+    quote: "a NuBanck + Descomplica, Concluiu curso livre à distância de Fundamentos FrontEnd Development 220 h",
+    imagem: descomplicaImg,
     company: "",
   },
 ];
