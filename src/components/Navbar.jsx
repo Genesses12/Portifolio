@@ -1,4 +1,7 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
+import Linkdin from '../img/Link.png';
+import Email from '../img/email.png';
+import Github from '../img/github3.png';
 
 const Navbar = () => {
   return (
@@ -19,6 +22,17 @@ const Navbar = () => {
           <a href="#testimonials" className="mr-5 hover:text-white">
             Formações
           </a>
+          <div className="grid grid-cols-3 gap-x-4">
+          <a href="https://www.linkedin.com/" target="_blank" className="inline-block">
+          <img className="h-12 w-auto" src={Linkdin} alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/Genesses12" target="_blank" className="inline-block">
+          <img className="h-12 w-auto" src={Github} alt="github" />
+          </a>
+          <a href="https://mail.google.com/mail/u/1/#inbox" target="_blank" className="inline-block">
+          <img className="h-12 w-auto" src={Email} alt="Email" />
+          </a>
+          </div>
         </nav>
         <a
           href="#contact"
