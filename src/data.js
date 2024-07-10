@@ -37,27 +37,27 @@ export const formacao = [
   {
     quote:
       "Cursando 4° Semestre em superior em tecnologia pela Anhanguera ",
-    imagem:"../src/img/Anhanguera.png",
+    imagem:"./src/img/Anhanguera.png",
     company: "",
   },
   {
     quote:
       "Bootcamp Oracle + Alura INICIANTE EM PROGRAMAÇÃO T3 - ONE / Formação FRONT END T3 - ONE - 175h",
-    imagem:"../src/img/alura.png",
+    imagem:"./src/img/alura.png",
     company: "",
   },
   {
     quote:
       "Tive á oportunidade de participar do Santander Bootcamp 2023 - Fullstack Java+Angular- 115h ",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
-    imagem:"../src/img/Dio.png",
+    imagem:"./src/img/Dio.png",
     company: "",
   },
   {
     quote:
       "a NuBanck + Descomplica, Concluiu curso livre à distância de Fundamentos  FrontEnd Development  220 h",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
-    imagem:"../src/img/Descomplica.png",
+    imagem:"./src/img/Descomplica.png",
     company: "",
   },
 ];
