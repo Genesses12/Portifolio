@@ -65,8 +65,6 @@ export const formacao = [
 export const skills = [
   "JavaScript",
   "React",
-  "Vite.js",
-  "Node",
   "PHP",
   "Laravel",
   "Material UI",
