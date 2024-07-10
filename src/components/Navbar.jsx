@@ -22,7 +22,7 @@ const Navbar = () => {
           <a href="#testimonials" className="mr-5 hover:text-white">
             Formações
           </a>
-          <div className="grid grid-cols-3 gap-x-4">
+          <div className="flex space-x-4 ml-20">
           <a href="https://www.linkedin.com/" target="_blank" className="inline-block">
           <img className="h-12 w-auto" src={Linkdin} alt="LinkedIn" />
           </a>
