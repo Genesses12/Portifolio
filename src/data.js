@@ -2,6 +2,7 @@ import aluraImg from './img/alura.png';
 import anhangueraImg from './img/Anhanguera.png';
 import descomplicaImg from './img/Descomplica.png';
 import dioImg from './img/dio.png';
+
 export const projects = [
   {
     title: "React Reserve",
