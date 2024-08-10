@@ -1,7 +1,10 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
+// imagens redes sociais
 import Linkdin from '../img/Link.png';
 import Email from '../img/email.png';
 import Github from '../img/github3.png';
+// components
+import DownloadButton from "./DownloadButton";
 
 const Navbar = () => {
   return (
@@ -34,6 +37,9 @@ const Navbar = () => {
           </a>
           </div>
         </nav>
+        <div className="mr-20">
+        <DownloadButton/> 
+        </div>
         <a
           href="#contact"
           className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">

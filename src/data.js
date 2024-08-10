@@ -2,6 +2,7 @@ import aluraImg from './img/alura.png';
 import anhangueraImg from './img/Anhanguera.png';
 import descomplicaImg from './img/Descomplica.png';
 import dioImg from './img/dio.png';
+import Ifms from './img/ifms.png';
 
 export const projects = [
   {
@@ -40,8 +41,18 @@ export const projects = [
 
 export const formacao = [
   {
+      quote: "Curando 1° Semestre em superior em Sistemas para internet pela IFMS",
+      imagem:Ifms,
+      company:"",
+  },
+  {
     quote: "Cursando 4° Semestre em superior em tecnologia pela Anhanguera",
     imagem: anhangueraImg,
+    company: "",
+  },
+  {
+    quote: "NuBanck + Descomplica, Concluiu curso livre à distância de Fundamentos FrontEnd Development 220 h",
+    imagem: descomplicaImg,
     company: "",
   },
   {
@@ -54,16 +65,13 @@ export const formacao = [
     imagem: dioImg,
     company: "",
   },
-  {
-    quote: "NuBanck + Descomplica, Concluiu curso livre à distância de Fundamentos FrontEnd Development 220 h",
-    imagem: descomplicaImg,
-    company: "",
-  },
+
+
 ];
 
 export const skills = [
   "JavaScript",
-  "React",
+  "Reactjs",
   "PHP",
   "Laravel",
   "Material UI",
