@@ -41,12 +41,12 @@ export const projects = [
 
 export const formacao = [
   {
-      quote: "Curando 1° Semestre em superior em Sistemas para internet pela IFMS",
+      quote: "Cursando 1° Semestre em Sistemas para internet na IFMS",
       imagem:Ifms,
       company:"",
   },
   {
-    quote: "Cursando 4° Semestre em superior em tecnologia pela Anhanguera",
+    quote: "Cursando 4° Semestre em superior em analise e desenvolvimento de sistemas na Anhanguera",
     imagem: anhangueraImg,
     company: "",
   },
