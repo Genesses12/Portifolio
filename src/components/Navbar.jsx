@@ -1,21 +1,19 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
-// imagens redes sociais
+// Imagens redes sociais
 import Linkdin from '../img/Link.png';
 import Email from '../img/email.png';
 import Github from '../img/github3.png';
-// components
+// Components
 import DownloadButton from "./DownloadButton";
 
 const Navbar = () => {
   return (
-    <header className="bg-gray-800 md:sticky top-0 z-10">
+    <header className="bg-gray-800 sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="title-font font-medium text-white mb-4 md:mb-0">
-          <a href="#about" className="ml-3 text-xl">
-            GF
-          </a>
+        <a href="#about" className="title-font font-medium text-white mb-4 md:mb-0 text-xl">
+          GF
         </a>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
           <a href="#projects" className="mr-5 hover:text-white">
             Projetos
           </a>
@@ -25,24 +23,22 @@ const Navbar = () => {
           <a href="#testimonials" className="mr-5 hover:text-white">
             Formações
           </a>
-          <div className="flex space-x-4 ml-20">
-          <a href="https://www.linkedin.com/" target="_blank" className="inline-block">
-          <img className="h-12 w-auto" src={Linkdin} alt="LinkedIn" />
-          </a>
-          <a href="https://github.com/Genesses12" target="_blank" className="inline-block">
-          <img className="h-12 w-auto" src={Github} alt="github" />
-          </a>
-          <a href="https://mail.google.com/mail/u/1/#inbox" target="_blank" className="inline-block">
-          <img className="h-12 w-auto" src={Email} alt="Email" />
-          </a>
-          </div>
         </nav>
-        <div className="mr-20">
-        <DownloadButton/> 
+        <div className="flex space-x-4 mt-4 md:mt-0">
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="inline-block">
+            <img className="h-8 w-8 md:h-12 md:w-auto" src={Linkdin} alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/Genesses12" target="_blank" rel="noopener noreferrer" className="inline-block">
+            <img className="h-8 w-8 md:h-12 md:w-auto" src={Github} alt="Github" />
+          </a>
+          <a href="https://mail.google.com/mail/u/1/#inbox" target="_blank" rel="noopener noreferrer" className="inline-block">
+            <img className="h-8 w-8 md:h-12 md:w-auto" src={Email} alt="Email" />
+          </a>
+          <DownloadButton />
         </div>
         <a
           href="#contact"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+          className="inline-flex items-center bg-gray-800 border-0 py-2 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 md:ml-4">
           Entre em contato
           <ArrowRightIcon className="w-4 h-4 ml-1" />
         </a>
