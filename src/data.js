@@ -51,7 +51,7 @@ export const formacao = [
     company: "",
   },
   {
-    quote: "NuBanck + Descomplica, Concluiu curso livre à distância de Fundamentos FrontEnd Development 220 h",
+    quote: "NuBanck + Descomplica, Concluiu curso livre à distância de Fundamentos FrontEnd Development 220h",
     imagem: descomplicaImg,
     company: "",
   },
