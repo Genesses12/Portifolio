@@ -19,7 +19,7 @@ const db = mysql.createConnection({
 
 db.connect(err => {
   if (err) throw err;
-  console.log('MySQL Connected...');
+  console.log('MySQL conectado...');
 });
 
 app.post('/submit', (req, res) => {
@@ -33,5 +33,5 @@ app.post('/submit', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
+  console.log(`Server online na porta ${port}`);
 });
