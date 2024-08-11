@@ -3,15 +3,10 @@ Este projeto é um portfólio pessoal desenvolvido utilizando React e Vite no fr
 
 Tecnologias Utilizadas
 Frontend:
-
 React
 Vite
 Tailwind CSS
 Backend:
-
 Node.js
-
 Banco de Dados:
-
 mysqlworkbench
-Outras ferramentas:
