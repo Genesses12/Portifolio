@@ -1,9 +1,20 @@
+import imageCV from '../img/CV2.png';
 
 const DownloadButton = () => {
   return (
-    <a href="./curriculum.pdf" className='mr-14 mt- px-5 py-3 bg-blue-500 text-white font-semibold rounded-md hover:bg-blue-600 transition duration-300' download> 
-      <button>Baixar Curriculum</button>
-    </a>
+<div className="flex justify-center items-center">
+<a 
+        href="./curriculum.pdf" 
+        className='bg-blue-800 text-white font-semibold rounded-md hover:bg-blue-300 transition duration-300 flex items-center'
+        download
+      >
+        <img 
+          className="w-9 h-10" 
+          src={imageCV} 
+          alt="Download Curriculum" 
+        />
+      </a>
+    </div>
   );
 }
 
