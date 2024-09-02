@@ -72,7 +72,7 @@ const Contact = () => {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 Telefone
               </h2>
-              <p className="leading-relaxed">(67)993002114</p>
+              <p className="leading-relaxed">(67)99xxxxx14</p>
             </div>
           </div>
         </div>
