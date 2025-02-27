@@ -1,0 +1,21 @@
+/* App.css */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  min-height: 100vh; /* Isso vai garantir que o conteúdo ocupe toda a altura da página */
+}
+
+* {
+  box-sizing: border-box;
+}
