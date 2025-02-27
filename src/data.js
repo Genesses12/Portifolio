@@ -37,7 +37,7 @@ export const projects = [
     title: "Blog",
     subtitle: " Desenvolvido usando Angular e Ts",
     description:
-      "te é um projeto de blog desenvolvido com Angular e TypeScript, focado em fornecer uma experiência dinâmica e interativa para a publicação de artigos. Ele permite que os usuários visualizem postagens de forma organizada.",
+      "É um projeto de blog desenvolvido com Angular e TypeScript, focado em fornecer uma experiência dinâmica e interativa para a publicação de artigos. Ele permite que os usuários visualizem postagens de forma organizada.",
     image: BlogAngular,
     link: "https://blog-atualidades.vercel.app/",
   },
