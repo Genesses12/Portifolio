@@ -7,6 +7,7 @@ import Ifms from "./src/img/ifms.png";
 import Text from "./src/img/PlaySore.png";
 import JuDoces from "./src/img//Judoces.png";
 import QrCode from "./src/img/QRCode.jpg";
+import Astro from "./src/img/astro.webp";
 import BlogAngular from "./src/img//blog.png";
 export const projects = [
     {
@@ -16,6 +17,14 @@ export const projects = [
             "Este projeto é um clone da PlayStation Store, desenvolvido com Angular e TypeScript. Ele simula uma loja de jogos digitais, apresentando uma interface moderna e responsiva.",
         image: Text,
         link: "https://playstation-store-nine.vercel.app/",
+    },
+        {
+        title: "Usuário do GitHub",
+        subtitle: "buscar informações públicas de usuários.",
+        description:
+            "app em React + Vite + TypeScript que utiliza a API do GitHub para buscar informações públicas de usuários.",
+        image: Astro,
+        link: "https://git-hub-pesquisa.vercel.app/",
     },
     {
         title: "Ju doces e Salgados",
