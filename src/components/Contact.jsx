@@ -46,9 +46,6 @@ const Contact = () => {
                         height="100%"
                         title="map"
                         className="absolute inset-0"
-                        frameBorder={0}
-                        marginHeight={0}
-                        marginWidth={0}
                         style={{ filter: "opacity(0.7)" }}
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.073754704774!2d-54.59929052597164!3d-20.50320255641131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486ef68457196d7%3A0x183ef89797208740!2sR.%20Rubi%2C%205%20-%20Vila%20Morumbi%2C%20Campo%20Grande%20-%20MS%2C%2079052-072!5e0!3m2!1spt-BR!2sbr!4v1720195158622!5m2!1spt-BR!2sbr"
                     />
@@ -96,6 +93,7 @@ const Contact = () => {
                         <label
                             htmlFor="name"
                             className="leading-7 text-sm text-gray-400"
+                            disable
                         >
                             Nome
                         </label>
