@@ -4,11 +4,11 @@ import descomplicaImg from "./src/img/Descomplica.png";
 import dioImg from "./src/img/dio.png";
 import Ifms from "./src/img/ifms.png";
 //imagens dos projetos
-import Text from "./src/img/PlaySore.png";
-import JuDoces from "./src/img//Judoces.png";
-import QrCode from "./src/img/QRCode.jpg";
-import Astro from "./src/img/astro.webp";
 import BlogAngular from "./src/img//blog.png";
+import JuDoces from "./src/img//Judoces.png";
+import Astro from "./src/img/astro.webp";
+import Text from "./src/img/PlaySore.png";
+import QrCode from "./src/img/QRCode.jpg";
 export const projects = [
     {
         title: "playstation-store",
@@ -76,10 +76,15 @@ export const formacao = [
 ];
 
 export const skills = [
+    "TypeScript",
     "JavaScript",
     "Reactjs",
     "PHP",
     "Laravel",
     "Material UI",
     "Angular",
+    "Git",
+    "GitHub",
+    "Tailwind CSS"
+
 ];
