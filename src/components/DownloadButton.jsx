@@ -4,7 +4,7 @@ const DownloadButton = () => {
   return (
     <div className="flex justify-center items-center">
       <a
-        href="./Curriculo.docx"
+        href="./Curriculo.docxgi"
         className="bg-blue-800 text-white font-semibold rounded-md hover:bg-blue-300 transition duration-300 flex items-center"
         download
       >

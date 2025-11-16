@@ -10,9 +10,7 @@ const Projects = () => {
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base rounded-lg">
               Confira alguns dos projetos que desenvolvi, utilizando diferentes
-              tecnologias como Angular, React, TypeScript e mais. Cada projeto
-              foi criado com foco em performance, design responsivo e uma ótima
-              experiência para o usuário.
+              tecnologias como Angular, React, TypeScript e mais.
             </p>
           </div>
         
